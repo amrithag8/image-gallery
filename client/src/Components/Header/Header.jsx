@@ -11,7 +11,7 @@ export const Header=({setImages})=>{
         console.log("hiii");
         const formData=new FormData();
         formData.append("upload_file", addImageval);
-        const resp=await axios("http://localhost:3006/upload", {
+        const resp=await axios("https://image-gallery-three-opal.vercel.app/upload", {
     method:"POST",
     headers:{
         "Content-Type":"multipart/form-data",

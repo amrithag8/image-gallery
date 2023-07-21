@@ -29,7 +29,7 @@ const closeHandler=()=>{
 
   useEffect(()=>{
     const fetchImages=async()=>{
-      const res=await axios("http://localhost:3006/");
+      const res=await axios("https://image-gallery-three-opal.vercel.app/");
       setImages(res.data);
     }
 
