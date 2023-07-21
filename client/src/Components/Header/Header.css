@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.long-line{
+    width: 920px;
+    height: 3px;
+    background-color: #EED8C0;
+display: inline-block;
+}
+
+.imagePrev{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.header{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.header .caption{
+    color: #ACACAC;
+}
+.plus{
+    position: relative;
+    /* width: 20px;
+    height: 20px; */
+    cursor: pointer;
+    
+}
+.file{
+    cursor: pointer;
+    position: absolute;
+    
+    inset:0;
+    opacity: 0;
+    z-index: 99;
+}

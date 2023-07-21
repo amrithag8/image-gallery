@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.gallery{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 270px;
+}
+
