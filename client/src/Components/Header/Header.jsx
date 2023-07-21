@@ -44,7 +44,7 @@ fetchdata(addImageval);
             <p className="caption">A picture is worth thousand words</p>
            {/* {ImagePreview&& <img className="imagePrev" src={ImagePreview} /> } */}
            <div> <input type="file" accept="image/*" className="file" onChange={imageUpload}/></div>
-            <img className="plus" src="/public/plus.png"/>
+            <img className="plus" src="/plus.png"/>
             <p>image.jpg</p>
             
             <span className="long-line"></span>
