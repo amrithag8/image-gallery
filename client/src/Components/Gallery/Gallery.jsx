@@ -6,10 +6,16 @@ export const Gallery=({images, setShowImage, showImage, imageHandler})=>{
     return(
         <div className="gallery">
             {
-images.map((item)=>{
+images.map((item)=>
     
-    return <GalleryImages item={item} showImage={showImage} setShowImage={setShowImage} imageHandler={imageHandler}/>
-})
+    
+    
+       
+    
+    <GalleryImages item={item} showImage={showImage} setShowImage={setShowImage} imageHandler={imageHandler}/>
+    
+    
+)
             }
             
             

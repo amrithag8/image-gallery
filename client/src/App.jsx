@@ -7,12 +7,14 @@ import { Gallery } from './Components/Gallery/Gallery';
 import axios from "axios";
 import { Modal } from './Components/Modal/Modal';
 import {Routes, Route} from "react-router-dom";
+import { ProgressBar } from './Components/ProgressBar/ProgressBar';
 
 
 function App() {
   const [images, setImages] = useState([]);
   const[showImage, setShowImage]=useState(false);
   const[selectedImage, setSelectedImage]=useState();
+  
 
   const imageHandler=(item)=>{
     
@@ -27,20 +29,30 @@ const closeHandler=()=>{
 
 
 
+
+
   useEffect(()=>{
+
+  
+  
     const fetchImages=async()=>{
       const res=await axios("https://image-gallery-three-opal.vercel.app/");
       setImages(res.data);
     }
-
-
+    
     fetchImages();
   }, []);
+
+
+ 
 
   
   return (
     <>
-      
+      {/* {
+(progress>100)&&
+<ProgressBar progress={progress}/>
+      } */}
        {
         (!showImage)&&(
         <>

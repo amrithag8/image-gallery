@@ -6,6 +6,7 @@ box-sizing: border-box;
 
 .gallery{
     display: grid;
+    align-items: center;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 270px;

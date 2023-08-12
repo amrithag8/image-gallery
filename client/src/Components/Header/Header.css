@@ -9,6 +9,8 @@ box-sizing: border-box;
     height: 3px;
     background-color: #EED8C0;
 display: inline-block;
+margin-top: 20px;
+padding: 0 20px;
 }
 
 .imagePrev{
@@ -26,18 +28,18 @@ display: inline-block;
 .header .caption{
     color: #ACACAC;
 }
-.plus{
+ 
+
+.image-upload > input
+{
     position: relative;
-    /* width: 20px;
-    height: 20px; */
-    cursor: pointer;
-    
+    display: none;
+    width: 30px;
 }
-.file{
-    cursor: pointer;
+
+.image-upload img
+{
     position: absolute;
-    
-    inset:0;
-    opacity: 0;
-    z-index: 99;
+   
+    cursor: pointer;
 }

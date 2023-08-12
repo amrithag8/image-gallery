@@ -1,0 +1,12 @@
+.inner-progress{
+    /* z-index: 999; */
+
+    position: absolute;
+
+}
+
+.progressbar{
+position: relative;
+height:20px;
+width: 100%;
+}
